@@ -133,7 +133,18 @@
           <a class="nav-link" href="contato.html">Contato</a>
         </li>
       </ul>
-      
+      <h6 style="text-align: center; font-size: xx-small;">
+        © Caio Azeredo - <span id="ano-copyright"></span>
+      </h6>
+    
+        <script>
+          // Captura o ano atual
+          const anoAtual = new Date().getFullYear();
+        
+          // Seleciona o elemento HTML com o id 'ano-copyright'
+          document.getElementById('ano-copyright').textContent = anoAtual;
+        </script>
+    
       
       </footer>
 </body>
